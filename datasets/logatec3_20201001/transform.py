@@ -9,8 +9,7 @@ from collections import OrderedDict
 
 import argparse
 
-SCRIPT_PATH = path.dirname(path.abspath(__file__))
-TRACE_PATH = path.dirname(SCRIPT_PATH)
+TRACE_PATH = path.dirname(path.abspath(__file__))
 DATA_PATH = path.join(TRACE_PATH, "data")
 
 
@@ -20,7 +19,7 @@ PROJECT_ROOT = path.dirname(path.dirname(TRACE_PATH))
 TRANSFORM_OUTPUT_PATH = path.join(PROJECT_ROOT, "output", "dataset-logatec3-20201001")
 
 
-# TODO: Maybe convert this to state machine?
+# TODO: Maybe convert this to state machine? More reliant on regex?
 
 
 def trx_parser(line: str, device_addr):
