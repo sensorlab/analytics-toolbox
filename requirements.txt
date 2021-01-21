@@ -1,0 +1,16 @@
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+
+tables
+numexpr
+
+#scikit-learn
+#imbalanced-learn
+
+joblib
+
+# formatting
+black
